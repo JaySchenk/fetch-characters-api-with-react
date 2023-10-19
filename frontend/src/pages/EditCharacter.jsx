@@ -33,9 +33,9 @@ const EditCharacter = () => {
 
   const handleUpdateObject = async () => {
     const updatedCharacter = {
-      name: name,
-      occupation: occupation,
-      weapon: weapon,
+      name,
+      occupation,
+      weapon,
     };
     try {
       const response = await fetch(
